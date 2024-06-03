@@ -26,6 +26,7 @@ module DeepL
         @target_lang = target_lang
 
         tweak_parameters!
+        puts self.inspect
       end
 
       def request
